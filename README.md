@@ -40,10 +40,10 @@
 ```bash
 CUDA_VISIBLE_DEVICES=0 \
 swift deploy \
-    --adapters lora=./train_ada/v3-20250928-095853/checkpoint-2300 \  
+    --adapters lora=./train_ada/v3-20250928-095853/checkpoint-2300 \    #需自行替换
     --infer_backend vllm \
     --temperature 0 \
-    --max_new_tokens 2048 \
+    --max_new_tokens 512 \
     --served_model_name Qwen2.5-7B-Instruct-lora1
 ```
 
@@ -61,10 +61,10 @@ swift deploy \
 ```bash
 CUDA_VISIBLE_DEVICES=0 \
 swift deploy \
-    --adapters lora=./MDL-lora1/checkpoint \
+    --adapters lora=./MDL-lora1/checkpoint \  #需自行替换
     --infer_backend vllm \
     --temperature 0.1 \
-    --max_new_tokens 1024 \
+    --max_new_tokens 512 \
     --served_model_name MDL-lora1
 ```
 
@@ -72,10 +72,10 @@ swift deploy \
 ```bash
 CUDA_VISIBLE_DEVICES=0,1 \
 swift deploy \
-    --adapters lora=./MDL-lora2/checkpoint \
+    --adapters lora=./MDL-lora2/checkpoint \   #需自行替换
     --infer_backend vllm \
     --temperature 0.1 \
-    --max_new_tokens 2048 \
+    --max_new_tokens 512 \
     --served_model_name MDL-lora2
 ```
 
@@ -83,10 +83,10 @@ swift deploy \
 ```bash
 CUDA_VISIBLE_DEVICES=0 \
 swift deploy \
-    --adapters lora=./MDL-Qlora1/checkpoint \
+    --adapters lora=./MDL-Qlora1/checkpoint \   #需自行替换
     --infer_backend vllm \
     --temperature 0.2 \
-    --max_new_tokens 1536 \
+    --max_new_tokens 512 \
     --served_model_name MDL-Qlora1
 ```
 
