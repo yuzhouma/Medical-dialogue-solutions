@@ -1,0 +1,32 @@
+# 排除大型数据文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.json
+*.xlsx
+.csv
+# 排除二进制文件
+*.exe
+*.dll
+*.so
+*.dylib
+
+# 排除系统文件
+.DS_Store
+Thumbs.db
+
+# 排除IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 排除日志和缓存
+*.log
+.cache/
+tmp/
+temp/
+*.pt
+*.safetensors
