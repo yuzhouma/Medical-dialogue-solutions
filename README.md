@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# interview-solutions
-=======
-# Medical-dialogue-solutions
->>>>>>> 3fba80ca2fb7387e194df4c8ae823988860a51a8
-For HMU interview
 =======
 # 医疗对话解决方案 (Medical Dialogue Solutions)
 
@@ -104,4 +97,4 @@ swift deploy \
 ---
 
 *注意：所有训练和推理流程建议在云上环境中执行，以确保计算资源的充足和稳定性。*
->>>>>>> 2678768e3dcc603d79ac66c4278982f9c45a5256
+
